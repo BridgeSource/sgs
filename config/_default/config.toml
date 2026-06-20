@@ -1,4 +1,4 @@
-baseURL = "https://example.org/"
+baseURL = "sgs-cbq.pages.dev"
 languageCode = "en-us"
-title = "My New Hugo Site"
+title = "SparkGap Services Knowledgebase"
 theme = "DoIt"
