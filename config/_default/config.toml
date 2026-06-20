@@ -1,4 +1,4 @@
 baseURL = "sgs-cbq.pages.dev"
 languageCode = "en-us"
 title = "SparkGap Services Knowledgebase"
-theme = "DoIt"
+theme = "hugo-book"
