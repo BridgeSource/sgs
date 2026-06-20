@@ -396,9 +396,15 @@ export class NotionToMarkdown {
           block.code.language
         );
       case "callout":
+          const CalloutIcon = 
+          block.callout.icon?.type === 'emoji' ||
+          block.callout.icon?.type === 'external' ||
+          block.callout.icon?.type === 'file'
+            ? block.callout.icon
+            : undefined;
         const { id, has_children } = block;
         const callout_text = await this.richText(block.callout.rich_text);
-        if (!has_children) return md.callout(callout_text, block.callout.icon);
+        if (!has_children) return md.callout(callout_text, CalloutIcon);
 
         let callout_string = "";
 
@@ -418,7 +424,7 @@ export class NotionToMarkdown {
           callout_string += `${child.parent}\n\n`;
         });
 
-        return md.callout(callout_string.trim(), block.callout.icon);
+        return md.callout(callout_string.trim(), CalloutIcon);
       case "quote":
         const quote_text = await this.richText(block.quote.rich_text);
         if (!block.has_children) return md.quote(quote_text);
