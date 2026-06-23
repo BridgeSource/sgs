@@ -1,0 +1,337 @@
+---
+title: "Markdown"
+date: "2026-06-20T15:04:00.000Z"
+lastmod: "2026-06-20T15:04:00.000Z"
+draft: false
+featuredImage: "https://app.notion.com/images/page-cover/woodcuts_1.jpg"
+series: []
+authors: []
+custom-front-matter: "hello"
+tags: []
+categories: []
+NOTION_METADATA:
+  object: "page"
+  id: "ae6eea78-fd4a-8346-b9e7-01d68c138cc2"
+  created_time: "2026-06-20T15:04:00.000Z"
+  last_edited_time: "2026-06-20T15:04:00.000Z"
+  created_by:
+    object: "user"
+    id: "0c28203b-f58a-47f0-84b4-7be039caa6a4"
+  last_edited_by:
+    object: "user"
+    id: "0c28203b-f58a-47f0-84b4-7be039caa6a4"
+  cover:
+    type: "external"
+    external:
+      url: "https://app.notion.com/images/page-cover/woodcuts_1.jpg"
+  icon: null
+  parent:
+    type: "data_source_id"
+    data_source_id: "bf1eea78-fd4a-83c6-9295-8776ec8d6572"
+    database_id: "a8deea78-fd4a-827f-99b4-014119ec6e8d"
+  in_trash: false
+  is_archived: false
+  is_locked: false
+  properties:
+    series:
+      id: "B%3C%3FS"
+      type: "multi_select"
+      multi_select: []
+    draft:
+      id: "JiWU"
+      type: "checkbox"
+      checkbox: false
+    authors:
+      id: "bK%3B%5B"
+      type: "people"
+      people:
+        - object: "user"
+          id: "657d1c71-eca5-475d-b9d3-3669efd38ab9"
+    custom-front-matter:
+      id: "c~kA"
+      type: "rich_text"
+      rich_text:
+        - type: "text"
+          text:
+            content: "hello"
+            link: null
+          annotations:
+            bold: false
+            italic: false
+            strikethrough: false
+            underline: false
+            code: false
+            color: "default"
+          plain_text: "hello"
+          href: null
+    tags:
+      id: "jw%7CC"
+      type: "multi_select"
+      multi_select: []
+    categories:
+      id: "nbY%3F"
+      type: "multi_select"
+      multi_select: []
+    Last edited time:
+      id: "vbGE"
+      type: "last_edited_time"
+      last_edited_time: "2026-06-20T15:04:00.000Z"
+    summary:
+      id: "x%3AlD"
+      type: "rich_text"
+      rich_text: []
+    Name:
+      id: "title"
+      type: "title"
+      title:
+        - type: "text"
+          text:
+            content: "Markdown"
+            link: null
+          annotations:
+            bold: false
+            italic: false
+            strikethrough: false
+            underline: false
+            code: false
+            color: "default"
+          plain_text: "Markdown"
+          href: null
+  url: "https://app.notion.com/p/Markdown-ae6eea78fd4a8346b9e701d68c138cc2"
+  public_url: null
+  archived: false
+MANAGED_BY_NOTION_HUGO: true
+
+---
+
+
+# Heading 1
+
+
+Link to [GitHub](https://github.com/)
+
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut sagittis commodo mauris, id semper ipsum condimentum sed. Nunc quam velit, malesuada et finibus a, laoreet vitae lacus. Morbi in augue sodales, semper tellus sed, scelerisque lacus. Pellentesque eu turpis non eros tristique malesuada. Quisque et magna eget lectus aliquet tempus. Donec ut nisl quis mauris tristique tincidunt. Sed eleifend facilisis enim, et gravida orci. Morbi erat ligula, commodo ut sapien non, blandit lacinia sem.
+
+
+---
+
+
+## Heading 2
+
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut sagittis commodo mauris, id semper ipsum condimentum sed. Nunc quam velit, malesuada et finibus a, laoreet vitae lacus. Morbi in augue sodales, semper tellus sed, scelerisque lacus. Pellentesque eu turpis non eros tristique malesuada. Quisque et magna eget lectus aliquet tempus. Donec ut nisl quis mauris tristique tincidunt. Sed eleifend facilisis enim, et gravida orci. Morbi erat ligula, commodo ut sapien non, blandit lacinia sem.
+
+
+---
+
+
+### Heading 3
+
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut sagittis commodo mauris, id semper ipsum condimentum sed. Nunc quam velit, malesuada et finibus a, laoreet vitae lacus. Morbi in augue sodales, semper tellus sed, scelerisque lacus. Pellentesque eu turpis non eros tristique malesuada. Quisque et magna eget lectus aliquet tempus. Donec ut nisl quis mauris tristique tincidunt. Sed eleifend facilisis enim, et gravida orci. Morbi erat ligula, commodo ut sapien non, blandit lacinia sem.
+
+
+---
+
+- [ ] To-do 1
+	- [ ] To-do 2
+		- [ ] To-do 3
+- [x] To-do completed 1
+	- [x] To-do completed 2
+		- [x] To-do completed 3
+
+---
+
+1. Ordered list 1
+1. Ordered list 2
+	1. Ordered list 3
+
+---
+
+- Unordered list 1
+- Unordered list 2
+	- Unordered list 3
+
+---
+
+
+| 11 | 12 | 13 |
+| -- | -- | -- |
+| 21 | 22 | 23 |
+| 31 | 32 | 33 |
+
+
+---
+
+
+<details>
+  <summary>Toggle list</summary>
+
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut sagittis commodo mauris, id semper ipsum condimentum sed. Nunc quam velit, malesuada et finibus a, laoreet vitae lacus. Morbi in augue sodales, semper tellus sed, scelerisque lacus. Pellentesque eu turpis non eros tristique malesuada. Quisque et magna eget lectus aliquet tempus. Donec ut nisl quis mauris tristique tincidunt. Sed eleifend facilisis enim, et gravida orci. Morbi erat ligula, commodo ut sapien non, blandit lacinia sem.
+
+1. Ordered list 1
+1. Ordered list 2
+	1. Ordered list 3
+
+		| 11 | 12 | 13 |
+		| -- | -- | -- |
+		| 21 | 22 | 23 |
+		| 31 | 32 | 33 |
+
+
+
+  </details>
+
+
+---
+
+
+> Quote 1  
+> Quote 2
+
+
+---
+
+
+> 💡 Callout  
+> Callout content  
+>   
+> > 💡 Inner Callout
+
+
+---
+
+
+## Mentions
+
+
+@2022-09-03T00:00:00.000+01:00 -> 2022-09-21T02:00:00.000+01:00 
+
+
+Hello !
+
+
+[Markdown]({{% relref "Markdown-ae6eea78fd4a8346b9e701d68c138cc2.md" %}}) 
+
+
+---
+
+
+## Image
+
+
+### Internal
+
+
+![](sgs-cbq.pages.dev/api?block_id=4c2eea78-fd4a-82b7-94a7-01ca54e92fe1)
+
+
+### External
+
+
+![](https://images.unsplash.com/photo-1647891941746-fe1d53ddc7a6?ixlib=rb-1.2.1&q=80&cs=tinysrgb&fm=jpg&crop=entropy)
+
+
+---
+
+
+## Bookmark
+
+
+[DoIt](https://notion.hugodoit.com)
+
+
+---
+
+
+## Video
+
+
+File
+
+
+<video controls style="height:auto;width:100%;">
+  <source src="sgs-cbq.pages.dev/api?block_id=fa5eea78-fd4a-829f-8020-01c75f391aea">
+  <p>
+    Your browser does not support HTML5 video. Here is a
+    <a href="sgs-cbq.pages.dev/api?block_id=fa5eea78-fd4a-829f-8020-01c75f391aea" download="sgs-cbq.pages.dev/api?block_id=fa5eea78-fd4a-829f-8020-01c75f391aea">link to the video</a> instead.
+  </p>
+</video>
+
+
+YouTube
+
+
+<iframe width="100%" height="315" src="https://www.youtube.com/embed/a0YrCABCOEY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+
+---
+
+
+## Audio
+
+
+<audio controls src="sgs-cbq.pages.dev/api?block_id=783eea78-fd4a-83f0-8aee-813c4e3413d4"></audio>
+
+
+---
+
+
+## Code
+
+
+```c
+#include <stdio.h>
+
+int main() {
+	printf("Hello world!")
+}
+```
+
+
+---
+
+
+## PDF
+
+
+<embed src="sgs-cbq.pages.dev/api?block_id=0ddeea78-fd4a-8235-85dc-81914ad6c2e8" type="application/pdf" style="width: 100%;aspect-ratio: 2/3;height: auto;" />
+
+
+## File
+
+
+[Living-Guide.pdf](sgs-cbq.pages.dev/api?block_id=910eea78-fd4a-8225-aad5-01006725c17a)
+
+
+---
+
+
+```mermaid
+graph TD
+  Mermaid --> Diagram
+```
+
+
+## Embed
+
+
+[https://twitter.com/NoContextBrits/status/1561790234811146243](https://twitter.com/NoContextBrits/status/1561790234811146243)
+
+
+[https://github.com/](https://github.com/)
+
+
+## Maths
+
+
+Inline maths equation: \(c = \pm\sqrt{a^2 + b^2}\)
+
+
+Block maths equation:
+
+
+\[c = \pm\sqrt{a^2 + b^2}\]
+
