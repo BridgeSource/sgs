@@ -1,7 +1,7 @@
 ---
 title: "Drive Layout"
 date: "2026-06-23T01:22:00.000Z"
-lastmod: "2026-06-23T02:26:00.000Z"
+lastmod: "2026-06-23T02:42:00.000Z"
 draft: false
 authors:
   - "John Porterfield"
@@ -12,7 +12,7 @@ NOTION_METADATA:
   object: "page"
   id: "388eea78-fd4a-80cb-a4df-ce22e90ad661"
   created_time: "2026-06-23T01:22:00.000Z"
-  last_edited_time: "2026-06-23T02:26:00.000Z"
+  last_edited_time: "2026-06-23T02:42:00.000Z"
   created_by:
     object: "user"
     id: "0c28203b-f58a-47f0-84b4-7be039caa6a4"
@@ -59,7 +59,7 @@ NOTION_METADATA:
     Last edited time:
       id: "vbGE"
       type: "last_edited_time"
-      last_edited_time: "2026-06-23T02:26:00.000Z"
+      last_edited_time: "2026-06-23T02:42:00.000Z"
     Name:
       id: "title"
       type: "title"
@@ -100,5 +100,26 @@ To allow everything pertaining to a grant to be in **one location**, that is eas
 ## Implementation
 
 
-/ta
+	Shell
+
+
+		```shell
+		mkdir -p Project_N/Phase_{I,II}/{Closeout,IRB,JIT,NOA/Extensions,RPPRs,Subcontracts/Vendor{01..03}}
+		```
+
+
+	Sharepoint
+
+
+		```shell
+		todo
+		```
+
+
+	Google Drive
+
+
+		```shell
+		todo
+		```
 
