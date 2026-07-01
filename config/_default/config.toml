@@ -2,4 +2,7 @@ baseURL = "sgs-cbq.pages.dev"
 languageCode = "en-us"
 title = "SparkGap Services Knowledgebase"
 theme = "hugo-book"
+
+[params]
 BookTheme = "dark"
+BookComments = true
